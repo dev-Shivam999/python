@@ -23,3 +23,11 @@ str="lol opi oooyyyye"
 #      print(i)
 #      break
 
+i=0
+num=3
+fac=1
+while num>i:
+    fac=fac*(num-i)
+    i+=1
+
+print(fac)
