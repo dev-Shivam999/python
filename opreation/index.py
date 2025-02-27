@@ -11,4 +11,5 @@
 # print(type(ok))
 
 num="1234567890"
-print(num[-1:-1])
+num="ertyuiop"
+print(num)
