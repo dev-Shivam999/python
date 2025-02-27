@@ -10,6 +10,11 @@
 # print(22%7)
 # print(type(ok))
 
-num="1234567890"
-num="ertyuiop"
-print(num)
+# num="1234567890"
+# num="ertyuiop"
+# print(num)
+
+
+list=['ok','lol','oy']
+list[1:2]=[]
+print(list)
