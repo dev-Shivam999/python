@@ -23,11 +23,29 @@ str="lol opi oooyyyye"
 #      print(i)
 #      break
 
-i=0
-num=3
-fac=1
-while num>i:
-    fac=fac*(num-i)
-    i+=1
+# i=0
+# num=3
+# fac=1
+# while num>i:
+#     fac=fac*(num-i)
+#     i+=1
 
-print(fac)
+# print(fac)
+
+# while True:
+
+#  a=input("enter number between 0 and 9")
+#  if a.isdigit() and 0 <= int(a) <= 9:
+#      print("you have entered correct number")
+#      break
+
+number=29
+
+isPrime=True
+
+if number >1:
+    for i in range(2,number):
+        if number%i==0:
+            isPrime=False
+            break
+
