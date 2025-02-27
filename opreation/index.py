@@ -5,7 +5,10 @@
 # print(x+y*z)
 
 # ok="ok"
-ok='98.0'
+# ok='98.0'
 
 # print(22%7)
-print(type(ok))
+# print(type(ok))
+
+num="1234567890"
+print(num[-1:-1])
