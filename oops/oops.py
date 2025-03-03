@@ -3,14 +3,21 @@ class Car:
   def __init__(self,brand,model):
     self.__brand=brand
     self.model=model
-    print("Car created")
    
   def get_brand(self):
     return self.__brand 
+  def get_Fule(self):
+    return "Petrol or diesel"  
     
-
-
-
+class  Ec(Car):
+  def __init__(self, brand,model,size):  
+    super().__init__(brand,model)
+    self.size=size
+  def get_Fule(self):
+    return "Electric "  
+  
 
 my_car=Car("lol",20)
-print(my_car.get_brand())
+my_ec=Ec("c","20","10")
+print(my_ec.get_Fule())
+print(my_car.get_Fule()) 
